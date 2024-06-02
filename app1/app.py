@@ -8,3 +8,6 @@ def hello_world():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0')
+    
+    
+#docker run -d -p 5000:5000 python-app1:latest
